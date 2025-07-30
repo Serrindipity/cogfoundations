@@ -36,13 +36,15 @@ Primacy and recency effects can be explanied in terms of how rehearsal affects s
 
 :::fyi
 ##### Brains Vs. Computers {-}
-The distinction between short-term memory and long-term memory might remind you of the distinction between RAM and ROM in a computer. Are brains just computers that live in our heads? Not exactly. Here are some key differences:
+The distinction between short-term memory and long-term memory might remind you of the distinction between the RAM and hard drive your laptop. Are brains just computers that live in our heads? Not exactly. Here are some key differences:
 
-* In computers, information can be accessed only if one knows the exact location of the memory. In the brain, information can be accessed through spreading activation from closely related concepts. Further, there is no exact location of a stored memory in the brain.
-* Computers differentiate memory (e.g. the hard drive) from processing  (the central processing unit), but in brains there is no such distinction.
-* In the brain (but not in computers) existing memory is used to interpret and  store incoming information, and retrieving information from memory changes the memory itself.
-* The brain is self-organizing and self-reparing, but computers are not. If a person suffers a stroke, neural plasticity will help them recover. 
-* The brain is significantly more complex than any current computer. The brain is estimated to have 25,000,000,000,000,000 (25 million billion) interactions among axons,  dendrites, neurons, and neurotransmitters, and that doesn't include the approximately  1 trillion glial cells that may also be important for information processing and memory.
+* **Memory access:** Your laptop can only access information if it knows the exact location of the memory. In your brain, memories are retrieved through spreading activation from related concepts. If you think "beach," related memories like "ocean," "sand," and "vacation" become more accessible without you consciously searching for them.
+* **Storage and processing:** Your laptop has separate components for storing information (hard drive, RAM) and processing it (CPU). In the brain, memory and processing are more integrated: the neural circuits involved in storing memories also participate in processing new information.
+* **Memory stability:** Your laptop typically stores and retrieves files without changing them. In your brain, existing memories influence how new information is stored, and each time you recall a memory, the act of remembering can slightly alter that memory.
+* **Damage and repair:** If your laptop's hard drive fails, you lose that data permanently. The brain shows plasticity: it can strengthen connections, form new synapses, and show some functional reorganization. If one brain region is damaged, other areas may partially compensate.
+* **Processing style:** Your laptop's CPU processes information through a small number of cores following step-by-step instructions very quickly. Your brain processes information through networks of billions of neurons working simultaneously in parallel, creating patterns of activity rather than following step-by-step instructions.
+
+Modern supercomputers and AI systems are becoming more brain-like in some ways, using parallel processing and adaptive algorithms, but the fundamental differences in how biological and digital systems operate remain.
 :::
 
 ## Structure
