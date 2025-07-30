@@ -85,17 +85,17 @@ One important caveat to these studies is that this research often doesn’t repo
 
 The available evidence suggests that participants were not immediately highly confident while their memory was in the earlier stages of contamination. In fact, the opposite seems to be true: Participants start with reporting that they don’t remember certain events, and then over time and through repeated pushing by researchers during testing, their memories change.  For example, one group of researchers altered childhood photographs of their subjects to appear that they rode in a hot air balloon  and then asked the subjects to try to remember and describe their hot air balloon experience [@wade2002picture]. After the memory test, researchers would prompt them to imagine events as if they were true, even though the participants had no memories for the events themselves. Then, participants would have another memory test. Transcripts from this study suggest that confidence in these false memories grew over time as more contamination occurred and that, at the beginning, participants did not remember these events at all. Here is a sample transcript of the first memory test between researcher and subject in @wade2002picture:
 
-> Interviewer: “And again, if you want to tell me as much as you can recall about this event without leaving anything out.”  
-> Subject: “Mm … no, never actually thought I’d been in a hot air balloon, so there we go.”  
-> Interviewer: “You can’t remember anything about this event?”  
-> Subject: “Nah. Though [this photo] is me … no memory whatsoever.”  
-> Interviewer: “If you want to take the next few minutes and concentrate on getting a memory back, something about the event.”  
-> Subject: “No, yeah I honestly … no I can’t. That’s really annoying.” (p. 600)
+> **Interviewer:** “And again, if you want to tell me as much as you can recall about this event without leaving anything out.”  
+> **Subject:** “Mm … no, never actually thought I’d been in a hot air balloon, so there we go.”  
+> **Interviewer:** “You can’t remember anything about this event?”  
+> **Subject:** “Nah. Though [this photo] is me … no memory whatsoever.”  
+> **Interviewer:** “If you want to take the next few minutes and concentrate on getting a memory back, something about the event.”  
+> **Subject:** “No, yeah I honestly … no I can’t. That’s really annoying.” (p. 600)
 
 After that exchange, researchers would then employ the visualization techniques that were used by therapists. By the third session, confidence seems to have grown:
 
-> Interviewer: “Same again, tell me everything you can remember about Event 3 without leaving anything out.”  
-> Subject: “Um, just trying to work out how old my sister was; trying to get the exact … when it happened. But I’m still pretty certain it occurred when I was in form one (6th grade) at um the local school there … Um basically for $10 or something you could go up in a hot air balloon and go up about 20 odd meters … it would have been a Saturday and I think we went with, yeah, my parents and, no it wasn’t, not my grandmother … not certain who any of the other people are there. Um, and I’m pretty certain that mum is down on the ground taking a photo.” (p. 600)
+> **Interviewer:** “Same again, tell me everything you can remember about Event 3 without leaving anything out.”  
+> **Subject:** “Um, just trying to work out how old my sister was; trying to get the exact … when it happened. But I’m still pretty certain it occurred when I was in form one (6th grade) at um the local school there … Um basically for $10 or something you could go up in a hot air balloon and go up about 20 odd meters … it would have been a Saturday and I think we went with, yeah, my parents and, no it wasn’t, not my grandmother … not certain who any of the other people are there. Um, and I’m pretty certain that mum is down on the ground taking a photo.” (p. 600)
 
 Some researchers speculate that this confidence effect should be considered regarding the repressed memory phenomenon of the 1990s as well; for example, patients’ false memories may not have appeared suddenly with high confidence, but rather could have been the results of interviewers pursuing low-certainty ideas until they became false memories. One patient from that time retracted the accusations of sexual abuse she made against her family. In her memoir, she implied that she was never confident about the instances of abuse having took place. Specifically, she wrote, “I drove back across San Francisco Bay [in 1989], back to Planet Incest, where the question was always incest and the answer was always incest and the explanation was always incest, and no one ever asked, ‘Are you sure?’” [@maran2010my, p. 126]. 
 
@@ -150,9 +150,9 @@ knitr::include_graphics("images/ch6/fig3.png")
 
 ### Interference {-}
 
-Sometimes information is stored in our memory, but for some reason it is inaccessible. This is known as interference, and there are two types: [proactive interference] and [retroactive interference]. Have you ever gotten a new phone number or moved to a new address, but right after you tell people the old (and wrong) phone number or address? When the new year starts, do you find you accidentally write the previous year? These are examples of proactive interference: when old information hinders the recall of newly learned information. Retroactive interference happens when information learned more recently hinders the recall of older information. For example, this week you are studying about Freud’s Psychoanalytic Theory. Next week you study the humanistic perspective of Maslow and Rogers. Thereafter, you have trouble remembering Freud’s Psychosexual Stages of Development because you can only remember Maslow’s Hierarchy of Needs.
+Sometimes information is stored in our memory, but for some reason it is inaccessible. This is known as interference, and there are two types: [proactive interference] and [retroactive interference] (Figure \@ref(fig:interference)). Have you ever gotten a new phone number or moved to a new address, but right after you tell people the old (and wrong) phone number or address? When the new year starts, do you find you accidentally write the previous year? These are examples of proactive interference: when old information hinders the recall of newly learned information. Retroactive interference happens when information learned more recently hinders the recall of older information. For example, this week you are studying about Freud’s Psychoanalytic Theory. Next week you study the humanistic perspective of Maslow and Rogers. Thereafter, you have trouble remembering Freud’s Psychosexual Stages of Development because you can only remember Maslow’s Hierarchy of Needs.
 
-```{r fig6.4, echo = FALSE, out.width='90%', fig.align = 'center'}
+```{r interference, echo = FALSE, out.width='90%', fig.align = 'center', fig.cap = 'Examples of proactive and retroactive interference.'}
 knitr::include_graphics("images/ch6/fig4.png")
 ```
 

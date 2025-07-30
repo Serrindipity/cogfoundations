@@ -1,5 +1,6 @@
 # Reasoning and Decision Making
-<img src="images/ch9/aisle.jpg" width="100%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=1\linewidth]{images/ch9/aisle} \end{center}
 
 We like to think that we make important decisions rationally, logically, and without bias or error -- but what if that’s not the case? Standing in the cereal aisle, for example  you face dozens of choices. You reason that whole grain cereals are healthier, but the colorful box at eye level catches your attention. The "25% more free!" label seems like a good deal, but is it what you want? Your decision involves weighing nutrition against taste, cost against convenience, and logical analysis against marketing and nostalgia. Even this simple choice reveals the complex interplay between reasoning and decision making that governs daily life.
 
@@ -26,9 +27,9 @@ The conclusion in this example follows directly from the premises, but it includ
 
 Deductive reasoning is concerned with syllogisms in which the conclusion follows logically from the premises. Consider the following example about preparing for a vacation:
 
-1. Premise:If it is warm, one needs shorts and t-shirts.
-2. Premise: It is warm in Spain during summer.
-3. Conclusion: Therefore, one needs shorts and t-shirts in Spain.
+> Premise: If it is warm, one needs shorts and t-shirts.  
+> Premise: It is warm in Spain during summer.  
+> Conclusion: Therefore, one needs shorts and t-shirts in Spain.
 
 In this example it is obvious that the premises are about rather general information and the resulting conclusion is about a more special case which can be inferred from the two premises. We will now differentiate between the two major kinds of syllogisms: categorical and conditional syllogisms.
 
@@ -47,18 +48,21 @@ Even though it is quite obvious that the first premise is not true and further t
 
 It is possible to display a syllogism formally with symbols or letters and explain its relationship graphically with the help of diagrams. One way to demonstrate a premise graphically is to use Euler circles (pronounced “oyler”). Starting with a circle to represent the first premise and adding one or more circles for the second one (Figure \@ref(fig:euler)), one can compare the constructed diagrams with the conclusion. The displayed syllogism in Figure 9.1 is obviously valid. The conclusion shows that everything that can jump contains animals which again contains flowers. This aligns with the two premises which point out that flowers are animals and thus are able to jump. Euler circles help represent such logic.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch9/fig1.png" alt="Euler Circles" width="60%" />
-<p class="caption">(\#fig:euler)Euler Circles</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig1} 
+
+}
+
+\caption{Euler Circles}(\#fig:euler)
+\end{figure}
 
 ##### The descriptive approach {-}
 
 The descriptive approach is concerned with estimating people’s ability to judge the validity of syllogisms and explaining errors people make. This psychological approach uses two methods in order to study people’s performance:
 
->Method of evaluation: People are given two premises and a conclusion. Their task is to judge whether the syllogism is valid.
-
->Method of production: Participants are given two premises. Their task is to develop a logically valid conclusion.
+- **Method of evaluation**: People are given two premises and a conclusion. Their task is to judge whether the syllogism is valid.
+- **Method of production**: Participants are given two premises. Their task is to develop a logically valid conclusion.
   
 In addition to the form of a syllogism, the content can influence a person’s decision and cause the person to neglect logical thinking. The belief bias states that people tend to judge syllogisms with believable conclusions as valid, while they tend to judge syllogisms with unbelievable conclusions as invalid. Given a conclusion as like “Some bananas are pink”, hardly any participants would judge the syllogism as valid, even though it might be logically valid according to its premises (e.g. Some bananas are fruits. All fruits are pink.)
 
@@ -101,15 +105,23 @@ The Wason Selection Task is a famous experiment which shows that people make mor
 
 In the abstract version of the Wason Selection Task, four cards are shown to the participants with a letter on one side and a number on the other (Figure \@ref(fig:wason1)). The task is to indicate the minimum number of cards that have to be turned over to test whether the following rule is observed: “If there is a vowel on one side then there is an even number on the other side.” 53% of participants selected the ‘E’ card which is correct, because turning this card over is necessary to test the truth of the rule. However another card still needs to be turned over. 64% indicated that the ‘4’ card has to be turned over which is not right. Only 4% of participants answered correctly that the ‘7’ card needs to be turned over in addition to the ‘E’. The correctness of turning over these two cards becomes more obvious if the same task is stated in terms of real-world items instead of vowels and numbers. One of the experiments for determining this was the beer/drinking-age problem used by @griggs1982elusive. This experiment is identical to the Wason Selection Task except that instead of numbers and letters on the cards, everyday terms (beer, soda and ages) were used (Figure \@ref(fig:wason2)). Griggs and Cox gave the following rule to participants: “If a person is drinking beer then he or she must be older than 21.” In this case 73% of participants answered correctly, that the cards with “beer” and “14 years” have to be turned over to test whether the rule is kept.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch9/fig2.png" alt="Original Wason Selection Task cards" width="60%" />
-<p class="caption">(\#fig:wason1)Original Wason Selection Task cards</p>
-</div>
+\begin{figure}
 
-<div class="figure" style="text-align: center">
-<img src="images/ch9/fig3.png" alt="Drinking-age Wason Selection Task" width="60%" />
-<p class="caption">(\#fig:wason2)Drinking-age Wason Selection Task</p>
-</div>
+{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig2} 
+
+}
+
+\caption{Original Wason Selection Task cards}(\#fig:wason1)
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig3} 
+
+}
+
+\caption{Drinking-age Wason Selection Task}(\#fig:wason2)
+\end{figure}
 
 ##### Why is the performance better in the case of real–world items? {-}
 
@@ -123,15 +135,19 @@ The evolutionary approach concerns the human ability of "cheater detection". Thi
 
 So far we have discussed deductive reasoning, which is reaching conclusions based on logical rules applied to a set of premises. However, many problems cannot be represented in a way that would make it possible to use these rules to come to a conclusion. [Inductive reasoning] is the process of making observations and applying those observations via generalization to a different problem. Therefore one infers from a special case to the general principle, which is just the opposite of the procedure of deductive reasoning (\@ref(fig:induct)). A good example of inductive reasoning is the following:
  
-> Premise: All crows you have ever seen are black.
+> Premise: All crows you have ever seen are black.  
 > Conclusion: Therefore, you reason that all crows on earth are black.
 
 In this example it is obvious that you infer from the simple observation about the crows they have seen to the general principle about all crows. Considering Figure \@ref(fig:induct), this means that you infer from the subset (yellow circle) to the whole (blue circle). As with this example, it is typical in inductive reasoning that the premises are believed to support the conclusion, but do not ensure the conclusion.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch9/fig4.png" alt="An example of inductive reasoning would be generalizing from the subset of crows you have seen to all crows." width="50%" />
-<p class="caption">(\#fig:induct)An example of inductive reasoning would be generalizing from the subset of crows you have seen to all crows.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{images/ch9/fig4} 
+
+}
+
+\caption{An example of inductive reasoning would be generalizing from the subset of crows you have seen to all crows.}(\#fig:induct)
+\end{figure}
 
 #### Forms of inductive reasoning {-}
 
@@ -139,7 +155,7 @@ The two different forms of inductive reasoning are “*strong*” and “*weak*�
 
 On the contrary, conclusions reached by “weak induction” are supported by the premises in a relatively weak manner. In this approach, the truth of the premises makes the truth of the conclusion possible, but not likely. An example for this kind of reasoning is the following:
 
-> Premise: You always listen to music with your iPhone.
+> Premise: You always listen to music with your iPhone.  
 > Conclusion: Therefore, all music is only heard with iPhones.
 
 In this instance the conclusion is obviously false. The information the premise contains is not very representative and although it is true, it does not give decisive evidence for the truth of the conclusion.
@@ -175,10 +191,14 @@ They then asked participants to rank a series of descriptions in order of how li
 Like the availability heuristic though, the representativeness heuristic is often accurate and useful. Tversky and Kahneman write: "Representativeness tends to covary with frequency: Common instances and frequent events are generally more representative than unusual instances and rare events" [@tversky1983extensional].
 
 
-<div class="figure" style="text-align: center">
-<img src="images/ch9/fig5.png" alt="Feminist bank tellers." width="60%" />
-<p class="caption">(\#fig:bank)Feminist bank tellers.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig5} 
+
+}
+
+\caption{Feminist bank tellers.}(\#fig:bank)
+\end{figure}
 
 ##### Confirmation bias {-}
 
@@ -188,10 +208,14 @@ For example, if someone believes that black cats bring bad luck, they may be add
 
 #### Induction vs. deduction {-}
 
-<div class="figure" style="text-align: center">
-<img src="images/ch9/fig6.png" alt="Deductive and inductive reasoning." width="60%" />
-<p class="caption">(\#fig:reasoning)Deductive and inductive reasoning.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig6} 
+
+}
+
+\caption{Deductive and inductive reasoning.}(\#fig:reasoning)
+\end{figure}
 
 The table below (\@ref(tab:IndDed)) summarizes the most prevalent properties and differences between deductive and inductive reasoning which are important to keep in mind.
 
@@ -214,23 +238,27 @@ There are two main ways to describe and analyze decision making. The “normativ
 ### Theories of Decision Making{-}
 
 #### Expected Value Theory {-}
-In the earliest days of probability theory, theorists used Expected Value Theory (EVT) as a normative account. Under EVT, the value of an option is calculated as the probability that option will occur, multiplied by the quantitative value of that option. For example, if a casino offers a game in which there as an 80% chance of winning $10, the “expected value” is .8 x 10 = $8. Because EVT is normative, people should be willing to pay up to $7.99 in order to play that game, because the expected value ($8) is higher than the cost (< $8). However, EVT has several issues as a normative theory. One sizeable issue is that most decisions do not have quantitative outcomes. For example, when deciding whether to take an umbrella due to a 20% chance of rain, there is no clear number that expresses how good or bad it would be to get caught in the rain! A second sizeable issue is that some decisions can have infinitely large expected values but have infinitely small probabilities of occurring, and people are typically uninterested in taking those gambles, despite EVT suggesting they should. This was first demonstrated in a game called the St. Petersburg Paradox, described in box 9.4.1.
+In the earliest days of probability theory, theorists used Expected Value Theory (EVT) as a normative account. Under EVT, the value of an option is calculated as the probability that option will occur, multiplied by the quantitative value of that option. For example, if a casino offers a game in which there as an 80% chance of winning \$10, the “expected value” is .8 x 10 = \$8. Because EVT is normative, people should be willing to pay up to \$7.99 in order to play that game, because the expected value (\$8) is higher than the cost (< \$8). However, EVT has several issues as a normative theory. One sizeable issue is that most decisions do not have quantitative outcomes. For example, when deciding whether to take an umbrella due to a 20% chance of rain, there is no clear number that expresses how good or bad it would be to get caught in the rain! A second sizeable issue is that some decisions can have infinitely large expected values but have infinitely small probabilities of occurring, and people are typically uninterested in taking those gambles, despite EVT suggesting they should. This was first demonstrated in a game called the St. Petersburg Paradox, described in box 9.4.1.
 
 :::fyi
 ##### St. Petersburg Paradox{-}
-A classic paradox dating back to 1713, the St. Petersburg Paradox, describes a game in which a fair coin is flipped repeatedly until it lands on heads, at which point the game ends. The number of times the coin was flipped (including the final heads) is the variable *k*, and the player wins $2^k$ dollars. How much would you be willing to pay to play this game? Most people are unwilling to pay more than ten dollars. However, you might notice that the expected value of this game is infinite, because hypothetically the coin could *never* land on heads, though it's incredibly unlikely. Needless to say, a game with infinite expected value that most people would not pay ten dollars for presents a problem for Expected Value Theory.
+A classic paradox dating back to 1713, the St. Petersburg Paradox, describes a game in which a fair coin is flipped repeatedly until it lands on heads, at which point the game ends. The number of times the coin was flipped (including the final heads) is the variable $k$, and the player wins $2^k$ dollars. How much would you be willing to pay to play this game? Most people are unwilling to pay more than ten dollars. However, you might notice that the expected value of this game is infinite, because hypothetically the coin could *never* land on heads, though it's incredibly unlikely. Needless to say, a game with infinite expected value that most people would not pay ten dollars for presents a problem for Expected Value Theory.
 :::
 
 #### Expected Utility Theory {-}
-Due to these issues, most modern theorists believe that Expected Utility Theory (EUT) is a better normative account of decision making. Under EUT, “utility” instead of “value” is multiplied by a probability. Utility is a more general term that refers to how subjectively good we believe an outcome to be, and “disutility” refers to how subjectively bad we believe an outcome to be. If you hate being caught in the rain, you might multiply the chance of rain (20%) by how much disutility rain gives you (perhaps -60 utils). Your expected utility from rain would be .2 x -60 = -12 utils. If carrying a heavy umbrella gives you -20 utils, you'd decide to skip the umbrella. EUT also accounts for the fact that people typically experience *diminishing marginal utility*. This is the observation that the utility of a gain is proportional to how much of that good you already have. For example, if you have $100 dollars and somebody gives you $5,000, you will experience much more gain in utility than if you have $100,000 and somebody gives you that same $5,000. Diminishing marginal utility helps resolve the issue with EVT demonstrated by the St. Petersburg Paradox because the extremely high potential values cease to be meaningful (if you have $100 billion, the next dollar you earn is meaningless).
+Due to these issues, most modern theorists believe that Expected Utility Theory (EUT) is a better normative account of decision making. Under EUT, “utility” instead of “value” is multiplied by a probability. Utility is a more general term that refers to how subjectively good we believe an outcome to be, and “disutility” refers to how subjectively bad we believe an outcome to be. If you hate being caught in the rain, you might multiply the chance of rain (20%) by how much disutility rain gives you (perhaps -60 utils). Your expected utility from rain would be .2 x -60 = -12 utils. If carrying a heavy umbrella gives you -20 utils, you'd decide to skip the umbrella. EUT also accounts for the fact that people typically experience *diminishing marginal utility*. This is the observation that the utility of a gain is proportional to how much of that good you already have. For example, if you have \$100 dollars and somebody gives you $5,000, you will experience much more gain in utility than if you have \$100,000 and somebody gives you that same \$5,000. Diminishing marginal utility helps resolve the issue with EVT demonstrated by the St. Petersburg Paradox because the extremely high potential values cease to be meaningful (if you have \$100 billion, the next dollar you earn is meaningless).
 
 #### Prospect Theory {-}
 By having participants in experiments report their willingness to play various gambles, Daniel Kahneman and Amos Tversky measured how people actually weigh value and probability, which they called Prospect Theory [@kahneman1979prospect]. The major findings of Prospect Theory (PT), called the probability weighting function and the value function, are shown in Figure \@ref(fig:prospect). The value function shows that, on average, people show diminishing marginal (dis)utility for large gains or large losses, and that losses typically have greater disutility than comparably sized gains have utility (hence the “kink” at zero). The probability weighting function shows that, on average, people tend to overweight small probabilities (i.e., behave as though they have higher probabilities than they actually do), and underweight large probabilities (i.e., behave as though they have lower probabilities than they actually do).
 
-<div class="figure" style="text-align: center">
-<img src="images/ch9/fig7.png" alt="a) value weighting function and b) probability weighting function, both from Prospect Theory. v(.) refers to subjective utility, and w(.) refers to subjective probability." width="60%" />
-<p class="caption">(\#fig:prospect)a) value weighting function and b) probability weighting function, both from Prospect Theory. v(.) refers to subjective utility, and w(.) refers to subjective probability.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig7} 
+
+}
+
+\caption{a) value weighting function and b) probability weighting function, both from Prospect Theory. v(.) refers to subjective utility, and w(.) refers to subjective probability.}(\#fig:prospect)
+\end{figure}
 
 ### Constructed Preferences {-}
 Contrary to theorists’ claim that rational decision makers always have well-defined preferences, real-life decision makers tend to make different selections depending on how choices are presented to them. Two common examples of this are *default effects* and *framing effects*.
@@ -257,6 +285,6 @@ People often have the intuition that more options are better, because there is a
 
 :::exercises
 ##### Exercises {-}
-1. Imagine a gamble with a 20% probability of winning $50. How much money does Expected Value Theory suggest you should be willing to pay to try this gamble?
+1. Imagine a gamble with a 20% probability of winning \$50. How much money does Expected Value Theory suggest you should be willing to pay to try this gamble?
 2. Describe default effects and framing effects. How are those psychological phenomena divergent from what a perfectly "rational" decision maker would do?
 :::

@@ -1,7 +1,7 @@
 --- 
 title: "Cognitive Foundations"
 author: "Edited by Celeste Pilegard"
-date: "Current version rendered 2025-07-14"
+date: "Current version rendered 2025-07-30"
 site: bookdown::bookdown_site
 documentclass: krantz
 bibliography: [book.bib, packages.bib]
@@ -186,9 +186,12 @@ Cognitive Psychology and Cognitive Neuroscience is licensed under the GNU Free D
 Condensed from original version. American spellings used. Content added or changed to reflect American perspective and references. Context and transitions added throughout. Substantially edited, adapted, and (in some parts) rewritten for clarity and course relevance. Chapter introduction added. Content added including transition from STM to WM approach, description of episodic buffer, description and evidence for working memory components, addition of episodic buffer.
 
 #### Second edition {-}
-Second edition revisions by Hayden Schill: Edits for clarity and more examples added. Section on working memory and distinctiveness added. Language updated to reflect Wixted (2024) on the Atkinson/Shiffrin model.
+Second edition revisions by Hayden Schill: Edits for clarity and more examples added. Section on working memory and distinctiveness added. Revisions by CP: Language updated to reflect Wixted (2024) on the Atkinson/Shiffrin model.
 
 Cover photo by Matt Briney on Unsplash.
+
+#### Current version {-}
+Improvements to episodic buffer section.
 
 ### Chapter 5. Long-Term Memory {-}
 #### First edition {-}

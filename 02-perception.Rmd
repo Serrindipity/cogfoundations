@@ -159,7 +159,7 @@ Figure \@ref(fig:humanfactors) presents images of an airplane instrument panel b
 
 One important aspect of the redesign was based on the principles of sensory adaptation. Displays that are easy to see in darker conditions quickly become unreadable when the sun shines directly on them, and it takes the pilot a relatively long time to adapt to the suddenly much brighter display. Human factors psychologists used these principles to develop an automatic control mechanism that senses the ambient light and automatically adjusts the display intensity for optimal readability under a wide range of conditions [@Silverstein1985; @Silverstein1990].
 
-```{r humanfactors, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap = 'Airplane instrument panel before and after it was redesigned by human factors psychologists.'}
+```{r humanfactors, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap = 'Airplane instrument panel before (left) and after (right) it was redesigned by human factors psychologists.'}
 knitr::include_graphics("images/ch2/fig8.png")
 ```
 :::

@@ -23,11 +23,11 @@ In more recent research, the distinctions between working and long-term memory f
 
 ## Short-Term Memory
 
-```{r modalmodel, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Atkinson and Shiffrin’s Modal Model of Memory.'}
+In the middle of the 20th century, many scientists were interested in [short-term memory] (STM), or how humans can hold small amounts of information actively in their minds for a short period of time. @atkinson1968human wrote a landmark paper that synthesized existing evidence on how memory functions and proposed a model of memory referred to as the Modal Model of Memory. Atkinson and Shiffrin presented their model as "a general framework within which specific models can be formulated" [@atkinson1968human, p. 91], not as a single, rigid theory. The simplified version that appears in most textbooks represents just one possible instantiation of their broader theoretical framework (Figure \@ref(fig:modalmodel)).
+
+```{r modalmodel, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'The simplest version of Atkinson and Shiffrin’s Modal Model of Memory.'}
 knitr::include_graphics("images/ch4/fig1.png")
 ```
-
-In the middle of the 20th century, many scientists were interested in [short-term memory] (STM), or how humans can hold small amounts of information actively in their minds for a short period of time. @atkinson1968human wrote a landmark paper that synthesized existing evidence on how memory functions and proposed a model of memory referred to as the Modal Model of Memory (\@ref(fig:modalmodel)). Atkinson and Shiffrin presented their model as "a general framework within which specific models can be formulated" [@atkinson1968human, p. 91], not as a single, rigid theory. The simplified version that appears in most textbooks represents just one possible instantiation of their broader theoretical framework.
 
 In this model, information first enters [sensory memory], which is a highly transient storage space for information that recently entered your sensory system. This information is high quality but fades away very quickly. Have you ever had the experience of hearing someone say something when you weren’t really paying attention, then repeating it immediately in your head, and then being able to understand it? For about three seconds, you can play back the auditory information that you just heard. You can even hear it in the speaker’s original tone of voice! You use your sensory memory to do this. 
 
@@ -66,7 +66,7 @@ While the Modal Model was relatively focused on the *memory* function of the sho
 ## Working Memory 
 According to Baddeley, [working memory] is capable of both storage and manipulation of incoming information. Baddeley and Hitch’s 1974 model consists of three parts: two storage spaces called the phonological loop and the visuospatial sketch pad, and a control unit called the central executive.
 
-```{r baddeley, echo = FALSE, out.width='60%', fig.align = 'center'}
+```{r baddeley, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'The original multicomponent working memory model from @BADDELEY197447.'}
 knitr::include_graphics("images/ch4/fig2.png")
 ```
 
@@ -92,9 +92,9 @@ And now try this one:
 
 Both lists are seven words long, and yet people are much worse at a list like the second one [@baddeley1975word]. This is called the [word-length effect]: *lists of short words are recalled better than lists of long words*. If you think back to early research on short-term memory, this result is surprising! According to Miller’s magical number, these lists should be remembered equally well because they contain the same number of items. Findings like the word length effect led researchers to conclude that the capacity of the phonological loop should not be measured in number of items, but in amount of time instead: the phonological loop can hold about two seconds of auditory information, which it can replay over and again through an active articulatory process. Imagine you have two seconds of tape— you could fit a lot more short words on it than long words!
 
-The next component of working memory is the [visuospatial sketch pad], which *handles visual and spatial information*. Like the phonological loop, the visuospatial sketch pad is primarily a storage space. What evidence do we have that visual and spatial information is stored independently from auditory and verbal information? Look at the block letter F to the right. In an example experiment, you would be instructed to memorize the letter, and then, starting with the starred corner and then traveling up and around the letter, indicate whether each corner is an outside corner (like the starred corner) or an inside corner (like the fifth corner as you travel around the shape). In one condition, participants would verbally say “outside” or “inside” for each corner. In the other condition, participants would point at the words “outside” and “inside” displayed in front of them for each corner. @Brooks1968 conducted an experiment similar to this one, and found that participants were much better at the task when they could verbally indicate the type of corner than when they had to point. Why? We have two storage spaces in working memory and each of them is limited in capacity. Mentally traveling around the block letter and judging the corners is a spatial task, and so it puts a load on the visuospatial sketch pad. If you add pointing on top of that, participants’ visuospatial sketch pads get overloaded and they struggle to do both simultaneously. If instead you allow participants to respond verbally, they are distributing the response aspect of the task onto the phonological loop. That way, neither storage system becomes overloaded.
+The next component of working memory is the [visuospatial sketch pad], which *handles visual and spatial information*. Like the phonological loop, the visuospatial sketch pad is primarily a storage space. What evidence do we have that visual and spatial information is stored independently from auditory and verbal information? Look at the block letter F in Figure \@ref(fig:blockf) In an example experiment, you would be instructed to memorize the letter, and then, starting with the starred corner and then traveling up and around the letter, indicate whether each corner is an outside corner (like the starred corner) or an inside corner (like the fifth corner as you travel around the shape). In one condition, participants would verbally say “outside” or “inside” for each corner. In the other condition, participants would point at the words “outside” and “inside” displayed in front of them for each corner. @Brooks1968 conducted an experiment similar to this one, and found that participants were much better at the task when they could verbally indicate the type of corner than when they had to point. Why? We have two storage spaces in working memory and each of them is limited in capacity. Mentally traveling around the block letter and judging the corners is a spatial task, and so it puts a load on the visuospatial sketch pad. If you add pointing on top of that, participants’ visuospatial sketch pads get overloaded and they struggle to do both simultaneously. If instead you allow participants to respond verbally, they are distributing the response aspect of the task onto the phonological loop. That way, neither storage system becomes overloaded.
 
-```{r blockf, echo = FALSE, out.width='10%', fig.align = 'center'}
+```{r blockf, echo = FALSE, out.width='10%', fig.align = 'center', fig.cap = 'The block letter F task.'}
 knitr::include_graphics("images/ch4/fig3.png")
 ```
 
@@ -103,7 +103,23 @@ We have seen that the phonological loop and the visuospatial sketch pad deal wit
 The functions of the central executive can be broken down into three categories: shifting, updating, and inhibition [@Miyake2000]. Shifting refers to engaging and disengaging from tasks, such as switching your attention back and forth between watching television and doing the dishes. Updating refers to monitoring information that is incoming into working memory, and making room for it by replacing old information in working memory. Inhibition refers to the deliberate inhibition of responses, such as when the ticket taker says “enjoy your movie!” and you stop yourself from saying, “you too!” 
 
 ### The episodic buffer {-}
-Science is an ongoing process, and so despite the usefulness of Baddeley and Hitch’s working memory model, it was updated in 2000 to add another component: the [episodic buffer] [@Baddeley2000]. The episodic buffer is a limited capacity, temporary storage system that is controlled by the central executive and integrates information from a variety of sources including long-term memory. The episodic buffer was added to help account for human performance in complex cognition— for example, we can remember many more words when we remember a meaningful sentence than when we remember a random word list. The episodic buffer was added to help account for this and other phenomena in which working memory performance seemingly requires additional storage as well as interfacing with long-term memory. The addition of the Episodic Buffer paralleled broader movement in the field towards thinking about how knowledge impacts working memory capacity.  
+Science is an ongoing process, and so despite the usefulness of Baddeley and Hitch’s working memory model, it was updated in 2000 to add another component: the episodic buffer [@Baddeley2000]. The [episodic buffer] is a limited capacity, temporary storage system that is controlled by the central executive and integrates information from a variety of sources including long-term memory (Figure \@ref(fig:episodic)). 
+
+```{r episodic, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap = 'An updated version of the multicomponent working memory model [@Baddeley2000].'}
+knitr::include_graphics("images/ch4/episodic.png")
+```
+
+Unlike the phonological loop and visuospatial sketch pad, which handle specific types of information separately, the episodic buffer creates unified representations by combining information from different sources. For example, when you remember a conversation with a friend, you're not just storing their words (phonological loop) and their facial expressions (visuospatial sketch pad) separately -- the episodic buffer integrates these into a coherent memory of the interaction.
+
+Another function of the episodic buffer is to integrate with long-term memory. One demonstration of the episodic buffer at work is how much better we are at remembering meaningful sentences compared to random word lists. Try to remember these 12 scrambled words:
+
+> hall the walked class their dining hungry the students ended after to
+
+Now try to remember the same 12 words in a meaningful sentence:
+
+> The hungry students walked to the dining hall after their class ended.
+
+You probably found the meaningful sentence much easier to remember, even though it contains the exact same words. This happens because the episodic buffer can create a unified, meaningful representation of the sentence that draws on your prior knowledge of students, dining halls, and hunger. With the scrambled words, each word must be held separately, quickly overwhelming working memory capacity. The addition of the Episodic Buffer to the working memory model paralleled broader movement in the field towards thinking about how knowledge impacts working memory capacity.  
 
 :::fyi
 ##### Working Memory, Meaning, and Distinctiveness {-}
